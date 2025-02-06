@@ -11,7 +11,7 @@
     "tsm": "^2.2.2"
   },
   "scripts": {
-    "build": "tsm rules.ts",
-    "watch": "nodemon --exec yarn build -e ts"
+    "build": "bun run rules.ts",
+    "watch": "bun --watch rules.ts"
   }
 }
